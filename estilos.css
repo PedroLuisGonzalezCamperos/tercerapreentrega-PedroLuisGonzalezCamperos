@@ -1,9 +1,51 @@
-h1 {
-  background-color: orange;
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
+* {
+  font-family: "Oswald", sans-serif;
 }
 
-div {
-  color: green;
+.textoNavbar {
+  color: black;
+}
+
+.grilla {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(2, 400px);
+  grid-gap: 15px;
+}
+
+.grillaResumenes {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 15px;
+}
+
+@media only screen and (min-width: 600px) {
+  .grillaResumenes {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media only screen and (min-width: 900px) {
+  .grillaResumenes {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+.item {
+  text-align: center;
+}
+.item img {
+  border-radius: 50px;
+}
+.item p {
+  margin-left: 130px;
+  margin-right: 130px;
+  text-align: justify;
+}
+
+@media only screen and (min-width: 800px) {
+  .grilla {
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
 /*# sourceMappingURL=estilos.css.map */
