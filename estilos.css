@@ -7,6 +7,11 @@
   color: black;
 }
 
+.nav-link {
+  color: black;
+  font-size: 20px;
+}
+
 .grilla {
   display: grid;
   grid-template-columns: 1fr;
@@ -46,6 +51,40 @@
   .grilla {
     grid-template-columns: 1fr 1fr;
   }
+}
+.precio {
+  text-align: center;
+}
+.precio a:hover {
+  background-color: grey;
+}
+.precio a {
+  background-color: aqua;
+  padding: 5px;
+  text-decoration: none;
+}
+
+.formulario3 {
+  display: flex;
+  justify-content: center;
+}
+.formulario3 a {
+  background-color: aqua;
+  padding: 5px;
+  text-decoration: none;
+}
+.formulario3 a:hover {
+  background-color: grey;
+}
+.formulario3 form {
+  padding: 20px;
+  border: 5px solid black;
+  border-radius: 15px;
+  width: 40%;
+}
+
+.enviarContacto {
+  text-align: center;
 }
 
 /*# sourceMappingURL=estilos.css.map */

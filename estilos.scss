@@ -15,6 +15,12 @@ color: $textoNavbar;
 
 }
 
+.nav-link {
+
+color: black;
+font-size: 20px;
+
+}
 
 
 .grilla {
@@ -96,3 +102,66 @@ grid-template-columns: 1fr 1fr ;
 
 }
 
+
+.precio {
+ 
+
+   text-align: center;
+
+   a:hover {
+
+    background-color: grey;
+
+   }
+
+a {
+background-color: aqua;
+   padding: 5px;
+text-decoration: none;
+
+}
+
+}
+
+.formulario3 {
+    display: flex;
+    justify-content: center;
+   
+
+    
+
+    a {
+
+        background-color: aqua;
+   padding: 5px;
+   text-decoration: none;
+
+    }
+    
+    a:hover {
+
+        background-color: grey;
+    
+       }
+
+    form {
+
+        padding: 20px ;
+
+   border: 5px solid black;
+
+   border-radius: 15px;
+        width: 40%;
+    
+    
+    }
+
+
+
+}
+
+
+.enviarContacto {
+text-align: center;
+
+}
