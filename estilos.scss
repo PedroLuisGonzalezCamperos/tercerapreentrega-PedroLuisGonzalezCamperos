@@ -1,18 +1,39 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
 
 $textoNavbar: black;
 
 
-*{
+p{
 
-    font-family: "Oswald", sans-serif;
+    font-family: "comic";
+
+}
+
+h2 {
+
+    font-family: "comic";
+    font-weight: bold;
 }
 
 .textoNavbar {
 
 color: $textoNavbar;
 
+
+}
+
+.navbar-nav {
+
+    a:hover {
+
+        background-color: rgba(138,239,100,255);
+
+        background-color: grey;
+    
+       }
 }
 
 .nav-link {
@@ -22,16 +43,89 @@ font-size: 20px;
 
 }
 
+.parrafoinicial {
+
+    margin-left: 90px;
+margin-right: 90px;
+
+}
+
 
 .grilla {
 
 display: grid;
-grid-template-columns: 1fr;
-grid-template-rows: repeat(2, 450px);
+grid-template-columns: 2fr;
+grid-template-rows: repeat(3, 450px);
 grid-gap: 15px;
 
 
 }
+
+.textoImagenes1 {
+
+margin: auto;
+margin-left: 50px;
+margin-right: 100px;
+
+p {
+
+    text-align: justify;
+
+font-size: 25px;
+
+
+}
+
+}
+
+
+.textoImagenes2 {
+
+    margin: auto;
+    
+    margin-left: 100px;
+margin-right: 50px;
+
+    p {
+    
+        text-align: justify;
+    
+    font-size: 25px;
+    
+    
+    }
+    
+    }
+    
+a {
+
+    box-shadow: 0 5px 26px 8px rgb(0, 0, 0, 0.27);
+
+}
+
+.comprar {
+
+    
+
+    text-align: center;
+
+    a:hover {
+
+        background-color: grey;
+    
+       }
+    
+    a {
+    background-color: rgba(138,239,100,255);
+       padding: 10px;
+    text-decoration: none;
+    color: black;
+    border-radius: 15px;
+    font-size: 20px;
+    }
+
+}
+
 
 
 .grillaResumenes {
@@ -40,16 +134,28 @@ grid-gap: 15px;
     grid-template-columns: 1fr;
     
     grid-gap: 15px;
-    
+
+    div {
+
+
+        p {
+
+            font-size: 30px;
+        }
+    }
+
+
 
 
 }
+
+
 
 .resumen2 {
 
 p {
 
-font-size: 20px;
+font-size: 25px;
 
 }
 
@@ -57,6 +163,11 @@ text-align: center;
 
 }
 
+.guia {
+
+font-size: 35px;
+
+}
 
 
 @media only screen and (min-width:600px) {
@@ -127,7 +238,7 @@ grid-template-columns: 1fr 1fr ;
 
     p {
 
-font-size: 20px;
+font-size: 25px;
 
 
     }
@@ -143,7 +254,7 @@ font-size: 20px;
    }
 
 a {
-background-color: aqua;
+background-color: rgba(138,239,100,255);
    padding: 10px;
 text-decoration: none;
 color: black;
@@ -187,7 +298,7 @@ font-size: 20px;
    }
 
 a {
-background-color: aqua;
+background-color: rgba(138,239,100,255);
    padding: 10px;
 text-decoration: none;
 color: black;
@@ -199,8 +310,8 @@ font-size: 20px;
 
 .presentacionguias {
 
-margin-left: 60px;
-margin-right: 60px;
+margin-left: 90px;
+margin-right: 90px;
 
 }
 
@@ -215,7 +326,7 @@ margin-right: 60px;
 
     a {
 
-        background-color: aqua;
+        background-color: rgba(138,239,100,255);
    padding: 5px;
    text-decoration: none;
 
@@ -260,7 +371,7 @@ margin-right: 100px;
 .textoBarra {
 
 
-    background-color: aqua;
+    background-color: rgba(138,239,100,255);
    align-content: center;
    
 
@@ -281,7 +392,7 @@ margin-left: 300px;
 
     a {
 
-        background-color: aqua;
+        background-color: rgba(138,239,100,255);
         padding: 10px;
      text-decoration: none;
      color: black;
@@ -307,3 +418,22 @@ margin-left: 300px;
         
        
 }
+
+
+.cajaTexto {
+
+text-align: center;
+
+
+}
+
+.textoNavbar {
+
+   
+   
+    
+        box-shadow: none;
+    
+    
+    
+    }
